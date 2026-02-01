@@ -1,0 +1,51 @@
+# Workflow do GitHub Actions
+# Gera a animação da cobrinha com base nos meus commits
+# O arquivo DEVE estar em .github/workflows/
+
+# Nome do workflow
+name: Cobrinha do GitHub
+
+# Configura para rodar a atualização
+on:
+  schedule:
+  # Vai rodar toda meia noite automáticamente
+  - cron: "0 0 * * *"
+  workflow_dispatch:
+  push:
+    # Vai rodar manualmente quando houver push em uma branch main
+    branches:
+    - main
+
+# Trabalho principal responsável por gerar e publicar a animação
+jobs:
+  generate:
+    # Usa uma máquina virtual Linux
+    runs-on: ubuntu-latest
+    # Mata o processo se rodar por mais que 10 minutos
+    timeout-minutes: 10
+    steps:
+      # Passo 1: baixa o código do repositório
+      - name: Baixar repositório
+        uses:  actions/checkout@v3
+
+      # Passo 2: gera os arquivos da cobrinha
+      - name: Gerar animação
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+            dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
+        env:
+          # Token automático do GitHub
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # Passo 3: publica os arquivos gerados na branch output
+      - name: Publicar na branch
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          publish_branch: output
+          commit_message: "Atualização [skip ci]"
