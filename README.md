@@ -112,9 +112,9 @@ Feel free to explore my projects, and if you want to chat or work together, just
 <br><br>
 
 
-![Gmail](https://img.shields.io/badge/Gmail-328336?style=for-the-badge&logo=Gmail&logoColor=ffffff)
-![LinkedIn](https://img.shields.io/badge/Linkedin-328336?style=for-the-badge&logo=Linkedin&logoColor=ffffff)
-![Discord](https://img.shields.io/badge/Discord-328336?style=for-the-badge&logo=Discord&logoColor=ffffff)
+![Gmail](https://img.shields.io/badge/Gmail-328336?style=for-the-badge&logo=Gmail&logoColor=ffffff)(mailto:bmf2107@gmail.com)
+![LinkedIn](https://img.shields.io/badge/Linkedin-328336?style=for-the-badge&logo=Linkedin&logoColor=ffffff)(https://www.linkedin.com/in/alex-fernandes-0325b52a8?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
+![Discord](https://img.shields.io/badge/Discord-328336?style=for-the-badge&logo=Discord&logoColor=ffffff)(https://discord.gg/duRXHskd)
 
 
 
