@@ -8,27 +8,31 @@ name: Cobrinha do GitHub
 # Configura para rodar a atualização
 on:
   schedule:
-  # Vai rodar toda meia noite automáticamente
-  - cron: "0 0 * * *"
+    # Vai rodar toda meia-noite automaticamente
+    - cron: "0 0 * * *"
+
   workflow_dispatch:
+
   push:
-    # Vai rodar manualmente quando houver push em uma branch main
+    # Vai rodar quando houver push na branch main
     branches:
-    - main
+      - main
 
 # Trabalho principal responsável por gerar e publicar a animação
 jobs:
   generate:
     # Usa uma máquina virtual Linux
     runs-on: ubuntu-latest
-    # Mata o processo se rodar por mais que 10 minutos
-    timeout-minutes: 10
-    steps:
-      # Passo 1: baixa o código do repositório
-      - name: Baixar repositório
-        uses:  actions/checkout@v3
 
-      # Passo 2: gera os arquivos da cobrinha
+    # Mata o processo se rodar por mais de 10 minutos
+    timeout-minutes: 10
+
+    steps:
+      # Passo 1: baixar o repositório
+      - name: Baixar repositório
+        uses: actions/checkout@v3
+
+      # Passo 2: gerar os arquivos da cobrinha
       - name: Gerar animação
         uses: Platane/snk@v3
         with:
@@ -41,7 +45,7 @@ jobs:
           # Token automático do GitHub
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      # Passo 3: publica os arquivos gerados na branch output
+      # Passo 3: publicar os arquivos gerados na branch output
       - name: Publicar na branch
         uses: peaceiris/actions-gh-pages@v3
         with:
