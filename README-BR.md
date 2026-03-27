@@ -28,6 +28,7 @@ Sinta-se livre pra explorar meus projetos, e se precisar, trocar uma ideia ou tr
 <br>
 
 [![English](https://img.shields.io/badge/README-US-328336?style=for-the-badge)](README.md)
+
 <sub>English version translated with AI support</sub>
 
 #
