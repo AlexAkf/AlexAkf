@@ -3,20 +3,20 @@
 
 <img src="images/hacker.png" height="150"/>
 
-![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=7fff00&center=true&width=435&lines=Hey+there!+I'm+Brazilian;Programmer;Jack+of+all+trades;Make+yourself+at+home!)
+![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=7fff00&center=true&width=435&lines=Opa+tranquilo?+BR+na+área;Programador;Pau+pra+toda+obra;Fique+a+vontade!)
 
 <table>
 <tr>
 <td>
-Do you know that person who always wants to know a little bit about everything? Well, that’s me. Curious by nature and driven by challenges, what can I say?
+Sabe aquela pessoa que quer saber um pouquinho de tudo? Pois é, esse sou eu. Curioso por natureza, não tem jeito.
 <br>
-I love getting my hands dirty and learning whatever's necessary to make things happen. If you’re looking for a programmer who isn’t afraid to tackle something new along the way, then you’re in the right place.
+Eu amo botar a mão na massa e aprender tudo o que é necessário pra fazer as coisas darem certo. Então, se você estiver procurando por um programador que não tem medo de aprender a pilotar um avião em pleno voo, está no lugar certo.
 <br>
-Every problem is a villain I need to defeat, and for that, I pick the right alien for the mission.
+Gosto de pensar que cada problema é como um vilão que preciso derrotar, e para isso, eu escolho o alien certo pra missão.
 <br>
-Feel free to explore my projects, and if you want to chat or work together, just get in touch.
+Sinta-se livre pra explorar meus projetos, e se precisar, trocar uma ideia ou trabalhar junto, só dar um toque.
 <br><br>
-<strong>It’s hero time!</strong>
+<strong>Tá na hora do herói!</strong>
 </td>
 <td>
 <img src="images/eu_10.jpeg" height="350" style="display:block;">
@@ -27,9 +27,8 @@ Feel free to explore my projects, and if you want to chat or work together, just
 #
 <br>
 
-[![Português](https://img.shields.io/badge/README-PT--BR-328336?style=for-the-badge)](README-BR.md)
-
-<sub>O original, que conquistou corações</sub>
+[![English](https://img.shields.io/badge/README-US-328336?style=for-the-badge)](README.md)
+<sub>English version translated with AI support</sub>
 
 #
 <br>
@@ -52,17 +51,17 @@ Feel free to explore my projects, and if you want to chat or work together, just
 <img src="images/ominitrix.gif" height="160"/><br>
 </td>
 <td>
-<b>Omnitrix Master Control</b><br><br>
-<i>Come on, give me something good!</i>
+<b>Controle Mestre do Omnitrix</b><br><br>
+<i>Qual é, algo bom!</i>
 </td>
 </tr>
 <tr>
 <td align="center">
 <img src="images/massa_cinzenta.jpg" height="120"/><br>
-<b>Grey Matter</b><br>
+<b>Massa Cinzenta</b><br>
 </td>
 <td>
-<b>Programming</b><br><br>
+<b>Programação</b><br><br>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="30"/>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="30"/>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30"/>
@@ -73,10 +72,10 @@ Feel free to explore my projects, and if you want to chat or work together, just
 <tr>
 <td align="center">
 <img src="images/diabrete.jpg" height="120"/><br>
-<b>Jury Rigg</b><br>
+<b>Diabrete</b><br>
 </td>
 <td>
-<b>Systems</b><br><br>
+<b>Sistemas</b><br><br>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/arduino/arduino-original.svg" height="30"/>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="30"/>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg" height="30"/>
@@ -85,10 +84,10 @@ Feel free to explore my projects, and if you want to chat or work together, just
 <tr>
 <td align="center">
 <img src="images/ultra_t.jpg" height="120"/><br>
-<b>Upgrade</b><br>
+<b>Ultra T</b><br>
 </td>
 <td>
-<b>Dev Tools</b><br><br>
+<b>Ferramentas de Desenvolvimento</b><br><br>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="30"/>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="30"/>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="30"/>
@@ -97,10 +96,10 @@ Feel free to explore my projects, and if you want to chat or work together, just
 <tr>
 <td align="center">
 <img src="images/eco_eco.jpg" height="120"/><br>
-<b>Echo Echo</b><br>
+<b>Eco Eco</b><br>
 </td>
 <td>
-<b>Design Tools</b><br><br>
+<b>Ferramentas de Criação</b><br><br>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" height="30"/>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg" height="30"/>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/blender/blender-original.svg" height="30"/>
@@ -111,7 +110,7 @@ Feel free to explore my projects, and if you want to chat or work together, just
 <img src="images/transformacao.gif" height="160"/><br>
 </td>
 <td>
-<i>Code Smash!</i>
+<i>Hora de Codar!</i>
 </td>
 </tr>
 </table>
